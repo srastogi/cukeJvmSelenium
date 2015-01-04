@@ -12,7 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import static org.junit.Assert.assertEquals;
 
 public class FundTransferStepDefs {
-    protected WebDriver driver;
+    private WebDriver driver;
     private FundTransferPage fundTransferPage;
 
     @Before
